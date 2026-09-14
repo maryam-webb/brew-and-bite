@@ -2,7 +2,373 @@
 <html>
 
 <head>
+ <title>Brew<!DOCTYPE html>
+<html>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Brew and Bite",
+  "url": "https://maryam-webb.github.io/brew-and-bite/",
+  "image": "https://maryam-webb.github.io/brew-and-bite/images/cafe.jpg",
+  "description": "Brew and Bite is a cozy cafe in Lahore serving freshly brewed coffee, delicious burgers, sandwiches, chocolate cake and sweet treats.",
+  "telephone": "+923001234567",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lahore",
+    "addressCountry": "PK"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "22:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "10:00",
+      "closes": "23:00"
+    }
+  ]
+}
+</script>
+<head>
  <title>Brew and Bite | Cafe in Lahore | Coffee, Food & Desserts</title>
+   <meta name="google-site-verification" content="D7vXOihC7ZDmXzMIViBrV3sGKDb7SZbV8BQJyKYcvpQ" />
+   <meta name="description"
+content="Brew and Bite is a cozy cafe in Lahore serving freshly brewed coffee, delicious burgers, sandwiches, chocolate cake and sweet treats.">
+<meta name="keywords"
+content="Brew and Bite, cafe in Lahore, Lahore cafe, coffee, burgers, sandwiches, chocolate cake, desserts">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="https://maryam-webb.github.io/brew-and-bite/">
+<meta property="og:title"
+content="Brew and Bite | Cafe in Lahore">
+
+<meta property="og:description"
+content="Fresh coffee, delicious food and sweet treats at Brew and Bite in Lahore.">
+
+<meta property="og:image"
+content="https://maryam-webb.github.io/brew-and-bite/images/cafe.jpg">
+
+<meta property="og:url"
+content="https://maryam-webb.github.io/brew-and-bite/">
+
+<meta property="og:type"
+content="website">
+   <link rel="icon" href="images/coffee.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<button id="top-button" title="Back to top">
+    ↑
+</button>
+<body>
+
+   <nav>
+    <h2>Brew and Bite ☕</h2>
+
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#special">Offers</a>
+    <a href="#cart">Cart</a>
+    <a href="#about">About</a>
+     <a href="#hours">Hours</a>
+     <a href="#location">Visit Us</a>
+    <a href="#contact">Contact</a>
+    <a href="#reviews">Reviews</a>
+<a href="#gallery">Gallery</a>
+</nav>
+
+<section id="home">
+
+    <div class="hero-content">
+        <p class="hero-tagline">YOUR COZY CORNER FOR COFFEE & FOOD</p>
+        <h1>Welcome to Brew and Bite ☕</h1>
+
+        <p>Fresh Coffee, Delicious Food & Good Vibes</p>
+
+       <a href="#menu" class="menu-button">View Our Menu</a>
+    </div>
+
+</section>
+<section id="menu">
+    <h2>Our Menu</h2>
+<p class="menu-intro">Freshly prepared favorites, made with love.</p>
+<div class="menu-filters">
+
+    <button class="filter-button active" data-category="all">
+        All
+    </button>
+
+    <button class="filter-button" data-category="coffee">
+        Coffee
+    </button>
+
+    <button class="filter-button" data-category="food">
+        Food
+    </button>
+
+    <button class="filter-button" data-category="dessert">
+        Desserts
+    </button>
+
+</div>
+    <div class="menu-container">
+
+       <div class="menu-card" data-category="coffee">
+    <img src="images/coffee.png" alt="Freshly brewed coffee at Brew and Bite">
+<h3>Coffee</h3>
+            <p>Freshly brewed coffee</p>
+            <div class="order-area">
+    <strong>Rs. 350</strong>
+   <a href="#cart" class="order-button" data-item="Coffee" data-price="350">
+    Add to Cart
+</a>
+</div>
+        </div>
+<div class="menu-card" data-category="food">
+    <img src="images/burger.png" alt="Fresh burger at Brew and Bite">
+<h3>Burger</h3>
+            <p>Juicy and delicious burger</p>
+           <div class="order-area">
+    <strong>Rs. 650</strong>
+   <a href="#cart" class="order-button" data-item="Burger" data-price="650">
+    Add to Cart
+</a>
+</div>
+        </div>
+
+        <div class="menu-card" data-category="dessert">
+    <img src="images/cake.png" alt="Chocolate cake at Brew and Bite">
+<h3>Chocolate Cake</h3>
+            <p>Rich chocolate cake</p>
+           <div class="order-area">
+    <strong>Rs. 450</strong>
+    <a href="#cart" class="order-button" data-item="Chocolate Cake" data-price="450">
+    Add to Cart
+</a>
+</div>
+        </div>
+
+        <div class="menu-card" data-category="food">
+    <img src="images/sandwich.png" alt="Fresh sandwich at Brew and Bite">
+<h3>Sandwich</h3>
+            <p>Fresh and crispy sandwich</p>
+        <div class="order-area">
+    <strong>Rs. 500</strong>
+    <a href="#cart" class="order-button" data-item="Sandwich" data-price="500">
+    Add to Cart
+</a>
+</div>
+        </div>
+
+    </div>
+</section>
+<section id="special">
+
+    <div class="special-content">
+
+        <p class="special-tag">SPECIAL OFFER</p>
+
+        <h2>Sweet Treat of the Day 🍰</h2>
+
+        <p>
+            Enjoy our delicious Chocolate Cake with
+            your favorite freshly brewed coffee.
+        </p>
+
+        <a href="#menu" class="special-button">
+            Explore Our Menu
+        </a>
+
+    </div>
+
+</section>
+<section id="cart">
+
+    <h2>Your Cart</h2>
+
+    <p class="cart-intro">
+        Review your selected items before placing your order.
+    </p>
+
+    <div id="cart-items">
+
+        <p id="empty-cart">
+            Your cart is currently empty.
+        </p>
+
+    </div>
+
+    <div class="cart-total">
+        <strong>Total: Rs. <span id="cart-total">0</span></strong>
+    </div>
+
+   <a href="#contact" class="checkout-button" id="checkout-button">
+    Proceed to Order
+</a>
+<button class="clear-cart-button" id="clear-cart-button">
+    Clear Cart
+</button>
+
+</section>
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+    At Brew and Bite, we believe great coffee and delicious food
+    bring people together. We create a warm and cozy place where
+    every visit feels special.
+</p>
+<p class="about-highlight">Freshly brewed. Freshly prepared. Made for you.</p>
+</section>
+<section id="reviews">
+
+    <h2>What Our Customers Say</h2>
+
+    <p class="reviews-intro">
+        A few words from our happy customers.
+    </p>
+
+    <div class="reviews-container">
+
+        <div class="review-card">
+            <p>
+                "The coffee was amazing and the atmosphere was
+                so warm and relaxing. Definitely coming back!"
+            </p>
+            <h3>— Sarah</h3>
+        </div>
+
+        <div class="review-card">
+            <p>
+                "Loved the food! The burger was fresh, delicious,
+                and perfectly prepared."
+            </p>
+            <h3>— Ahmed</h3>
+        </div>
+
+        <div class="review-card">
+            <p>
+                "Beautiful place, friendly service, and great
+                coffee. Perfect for spending time with friends."
+            </p>
+            <h3>— Ayesha</h3>
+        </div>
+
+    </div>
+
+</section>
+<section id="gallery">
+
+    <h2>Our Cafe Gallery</h2>
+
+    <p class="gallery-intro">
+        A glimpse of the Brew and Bite experience.
+    </p>
+
+    <div class="gallery-container">
+
+        <img src="images/cafe.jpg" alt="Brew and Bite cafe in Lahore">
+
+        <img src="images/coffee.png" alt="Freshly brewed coffee at Brew and Bite">
+
+        <img src="images/burger.png" alt="Fresh burger at Brew and Bite">
+
+        <img src="images/cake.png" alt="Chocolate cake at Brew and Bite">
+
+        <img src="images/sandwich.png" alt="Fresh sandwich at Brew and Bite">
+
+    </div>
+
+</section>
+<section id="hours">
+    <h2>Opening Hours</h2>
+
+    <p>Monday - Friday: 9:00 AM - 10:00 PM</p>
+    <p>Saturday - Sunday: 10:00 AM - 11:00 PM</p>
+</section>
+<section id="location">
+
+    <h2>Visit Us</h2>
+
+    <p>📍 Lahore, Pakistan</p>
+
+    <p>
+        Come visit Brew and Bite and enjoy your favorite coffee
+        and delicious food.
+    </p>
+
+    <div class="map-box">
+    <iframe
+        src="https://www.google.com/maps?q=Lahore,Pakistan&output=embed"
+        width="100%"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</div>
+
+</section>
+<section id="contact">
+    <h2>Place Your Order</h2>
+    <p>Have a question or want to place an order? Send us a message.</p>
+
+    <p>📍 Lahore, Pakistan</p>
+    <p>📞 0300-1234567</p>
+
+    <div class="contact-form">
+
+   <input type="text" id="customer-name" placeholder="Your Name">
+
+<textarea id="order-item" placeholder="Your selected order will appear here..." readonly></textarea>
+
+<input type="number" id="quantity" placeholder="Quantity" min="1">
+
+<input type="email" id="customer-email" placeholder="Your Email">
+
+<textarea id="customer-message" placeholder="Your Message"></textarea>
+
+<button type="button" id="send-button">Send Message</button>
+<a href="#" id="whatsapp-button" class="whatsapp-button">
+    Order on WhatsApp
+</a>
+
+<p id="success-message"></p>
+
+</div>
+</section>
+<footer>
+
+    <h3>Brew and Bite ☕</h3>
+
+    <p>Fresh Coffee. Delicious Food. Good Vibes.</p>
+
+    <div class="social-links">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">WhatsApp</a>
+    </div>
+
+    <p class="copyright">
+        © 2026 Brew and Bite. All Rights Reserved.
+    </p>
+
+</footer>
+<script src="script.js"></script>
+</body>
+</html> and Bite | Cafe in Lahore | Coffee, Food & Desserts</title>
    <meta name="google-site-verification" content="D7vXOihC7ZDmXzMIViBrV3sGKDb7SZbV8BQJyKYcvpQ" />
    <meta name="description"
 content="Brew and Bite is a cozy cafe in Lahore serving freshly brewed coffee, delicious burgers, sandwiches, chocolate cake and sweet treats.">
