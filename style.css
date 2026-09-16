@@ -1419,3 +1419,31 @@ nav a:hover {
     background-color: #b88942;
     transform: translateY(-3px);
 }
+/* Mobile navigation fix */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: flex-start;
+        align-items: center;
+        white-space: nowrap;
+        gap: 20px;
+        padding: 15px 20px;
+    }
+
+    nav h2 {
+        flex-shrink: 0;
+        margin: 0;
+    }
+
+    nav a {
+        flex-shrink: 0;
+        margin: 0;
+    }
+
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+}
